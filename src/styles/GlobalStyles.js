@@ -1,4 +1,5 @@
 import styled, { createGlobalStyle } from 'styled-components';
+import 'react-toastify/dist/ReactToastify.css';
 
 export default createGlobalStyle`
 
@@ -13,7 +14,7 @@ export default createGlobalStyle`
 
   body {
     font-family: sans-serif;
-    background: blue;
+    background: darkslateblue;
 
   }
 
