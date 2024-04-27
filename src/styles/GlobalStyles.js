@@ -14,12 +14,13 @@ export default createGlobalStyle`
 
   body {
     font-family: sans-serif;
-    background: darkslateblue;
+    background: #333399;
 
   }
 
   html, body, #root {
     height: 100%;
+    width: 100%;
   }
 
   button {
@@ -37,10 +38,11 @@ export default createGlobalStyle`
 `;
 
 export const Container = styled.section`
-  max-width: 600px;
+  max-width: 480px;
+  max-height: 1000px;
   background: #fff;
   margin: 30px auto;
-  text-align: center;
+  padding: 20px;
   border-radius: 4px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 `;
