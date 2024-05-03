@@ -41,6 +41,8 @@ module.exports = {
     'react/react-in-jsx-scope': 0,
     'prettier/prettier': 'error',
     'react-hooks/rules-of-hooks': 'error',
-    'react-hooks/exhaustive-deps': 'warn'
+    'react-hooks/exhaustive-deps': 'warn',
+    'import/prefer-default-export': 0,
+    'jsx-a11y/anchor-is-valid': 0,
   },
 };
