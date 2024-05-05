@@ -10,7 +10,7 @@ export default function Login() {
         <small>teste</small>
       </Title>
       <Paragrafo>testeeee</Paragrafo>
-      <a href="">tetse</a>
+      <a href="">testeeee</a>
     </Container>
   );
 }

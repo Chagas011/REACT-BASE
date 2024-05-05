@@ -39,6 +39,7 @@ export const Container = styled.section`
   max-width: 600px;
   background: #fff;
   margin: 30px auto;
+  text-align: center;
   border-radius: 4px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 `;
